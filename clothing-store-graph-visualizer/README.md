@@ -24,16 +24,6 @@ clothing-store-graph-visualizer
 ├── README.md
 ```
 
-## Instrucciones de Configuración
-1. **Clonar el Repositorio**: 
-   ```
-   git clone <url-del-repositorio>
-   cd clothing-store-graph-visualizer
-   ```
-2. **Abrir el Proyecto**: Abre el proyecto en tu editor de código preferido.
-3. **Instalar Dependencias**: Si hay dependencias (por ejemplo, bibliotecas de gráficos), instálalas según las instrucciones proporcionadas en la documentación de la biblioteca respectiva.
-4. **Ejecutar la Aplicación**: Abre `index.html` en un navegador web para ver la aplicación.
-
 ## Guía de Uso
 - Selecciona un cliente del menú desplegable para ver su historial de compras y recomendaciones.
 - El gráfico se actualizará para reflejar las compras y productos relacionados del cliente seleccionado.
