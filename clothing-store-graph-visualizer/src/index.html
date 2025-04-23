@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Gráficos para Tienda de Ropa</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Visualizador de Gráficos para Tienda de Ropa</h1>
+        </header>
+        <main>
+            <section class="customer-selection">
+                <label for="customerSelect">Seleccionar Cliente:</label>
+                <select id="customerSelect">
+                    <option value="">--Seleccione un Cliente--</option>
+                    <option value="user1">Alicia</option>
+                    <option value="user2">Roberto</option>
+                    <option value="user3">Carlos</option>
+                </select>
+                <button id="viewButton">Ver Compras y Recomendaciones</button>
+            </section>
+            <section class="recommendations">
+                <h2>Compras del Cliente</h2>
+                <ul id="purchasesContainer"></ul>
+
+                <h2>Recomendaciones</h2>
+                <ul id="recommendationList"></ul>
+            </section>
+            <section class="graph-visualization">
+                <h2>Visualización del Gráfico</h2>
+                <div id="graphContainer"></div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/graph.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.21.1/cytoscape.min.js"></script>
+</body>
+</html>
