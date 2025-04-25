@@ -28,6 +28,3 @@ clothing-store-graph-visualizer
 - Selecciona un cliente del menú desplegable para ver su historial de compras y recomendaciones.
 - El gráfico se actualizará para reflejar las compras y productos relacionados del cliente seleccionado.
 - Explora el gráfico para entender las relaciones entre diferentes productos y clientes.
-
-## Contribuciones
-¡Las contribuciones son bienvenidas! No dudes en enviar una solicitud de extracción o abrir un problema para cualquier mejora o corrección de errores.
